@@ -2400,6 +2400,321 @@
 			)
 		)
 	)
+	(symbol "MCU_Adafruit_QTPY_2040"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MCU:Adafruit_QTPY_2040"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MCU_Adafruit_QTPY_2040_0_1"
+			(rectangle
+				(start -8.89 8.89)
+				(end 7.62 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "MCU_Adafruit_QTPY_2040_1_1"
+			(pin input line
+				(at -11.43 7.62 0)
+				(length 2.54)
+				(name "GPIO29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "3.3V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "GPIO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(name "GPIO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 5.08 0)
+				(length 2.54)
+				(name "GPIO28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 2.54 0)
+				(length 2.54)
+				(name "GPIO27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 0 0)
+				(length 2.54)
+				(name "GPIO26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -2.54 0)
+				(length 2.54)
+				(name "GPIO24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -5.08 0)
+				(length 2.54)
+				(name "GPIO25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 -7.62 0)
+				(length 2.54)
+				(name "GPIO20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "MCU_Arduino_Pro_Micro"
 		(pin_names
 			(offset 1.016)
@@ -6972,15 +7287,19 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at -0.15 1.066 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
 				)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "Diode"
-			(at 0 -2.54 0)
+		(property "Value" ""
+			(at 2.54 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +7307,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,7 +7316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,26 +7324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 0)
+		(property "Description" ""
+			(at 3.81 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,19 +7354,7 @@
 		(symbol "Placeholder_Diode_0_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy 0 -0.762) (xy 0 0.762)
 				)
 				(stroke
 					(width 0)
@@ -7075,23 +7364,35 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "Placeholder_Diode_1_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 1.016 -0.762) (xy -1.016 -0.762)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-		)
-		(symbol "Placeholder_Diode_1_1"
+			(polyline
+				(pts
+					(xy 1.016 0.762) (xy 0 -0.762) (xy -1.016 0.762) (xy 1.016 0.762)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.778)
 				(name "K"
 					(effects
 						(font
@@ -7108,8 +7409,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 0 2.54 270)
+				(length 1.778)
 				(name "A"
 					(effects
 						(font
@@ -7268,15 +7569,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "S"
-			(at 3.048 1.016 0)
+			(at 0 0 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Keyswitch"
+		(property "Value" ""
 			(at 0 -3.81 0)
 			(effects
 				(font
@@ -7293,8 +7596,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
+		(property "Datasheet" ""
+			(at -2.54 -1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -7606,14 +7909,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "H"
-			(at 0 5.08 0)
+			(at 0 0 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
+					(thickness 0.2)
+					(bold yes)
 				)
 			)
 		)
-		(property "Value" "Mounting_Hole"
+		(property "Value" ""
 			(at 0 3.175 0)
 			(effects
 				(font
@@ -7630,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -7639,7 +7945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font

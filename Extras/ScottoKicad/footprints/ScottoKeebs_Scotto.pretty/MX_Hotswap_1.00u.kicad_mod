@@ -84,6 +84,46 @@
 		(uuid "7a3a01e0-ea53-4608-9788-11731b82ee5e")
 	)
 	(fp_line
+		(start 0.385 -9.11)
+		(end 0.885 -8.61)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "562c9426-beb2-4e76-aa90-be70954e4b48")
+	)
+	(fp_line
+		(start 0.885 -9.11)
+		(end 0.385 -8.61)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "86958a6f-87a1-4ecb-b605-9a1abfd35f81")
+	)
+	(fp_line
+		(start 3.4875 -4.06)
+		(end 3.9875 -3.56)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "3255a5b6-4466-47b6-a692-79d0a2460e42")
+	)
+	(fp_line
+		(start 3.9875 -4.06)
+		(end 3.4875 -3.56)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "72a3d83c-17c4-4a17-a597-9777d793e92f")
+	)
+	(fp_line
 		(start 10.16 -13.335)
 		(end -8.89 -13.335)
 		(stroke
@@ -424,6 +464,17 @@
 		)
 		(rotate
 			(xyz -90 0 0)
+		)
+	)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_MX.3dshapes/MX_PCB.step"
+		(offset
+			(xyz 0.65 3.8 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
 		)
 	)
 )
